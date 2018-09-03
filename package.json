@@ -1,0 +1,26 @@
+{
+  "name": "http_assignment",
+  "version": "1.0.0",
+  "description": "First Homework",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomMakes/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Tom R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomMakes/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/TomMakes/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
